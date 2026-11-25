@@ -1,0 +1,14 @@
+These numbered parts are pieces of the original zip files, cut at 45 MB so GitHub will accept them.
+A single part is not a zip. Join every part, in order, before opening the archive.
+
+Windows (Command Prompt), from this folder:
+
+copy /b java-jive-design-pattern-detection.zip.001+java-jive-design-pattern-detection.zip.002+java-jive-design-pattern-detection.zip.003 java-jive-design-pattern-detection.zip
+copy /b newrb-dlib.zip.001+newrb-dlib.zip.002+newrb-dlib.zip.003+newrb-dlib.zip.004 newrb-dlib.zip
+
+PowerShell, from this folder:
+
+cmd /c "copy /b java-jive-design-pattern-detection.zip.001+java-jive-design-pattern-detection.zip.002+java-jive-design-pattern-detection.zip.003 java-jive-design-pattern-detection.zip"
+cmd /c "copy /b newrb-dlib.zip.001+newrb-dlib.zip.002+newrb-dlib.zip.003+newrb-dlib.zip.004 newrb-dlib.zip"
+
+bigdata-journals.zip is unchanged and does not need to be joined.
